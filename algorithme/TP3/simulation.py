@@ -30,7 +30,7 @@ def afficheLigne (tab):
         else:
             print("", end="")
     print()
-    sleep(0.25)
+    sleep(0.0750)
 
 # afficheLigne(uneEtape([1,1,1,0,0,0,1,1,1,0,0,0]))
 # afficheLigne(uneEtape([1,0,1,0,1,0,1,0,1,0,1,0]))
@@ -51,6 +51,6 @@ def simulation(tab):
 # simulation([0,0,0,1,0,1,0,1,0,1,0,1])
 # simulation([0,1,0,1,0,1,0,1,0,1,0,1,1])
 # simulation([1,0,1,0,1,0,1,0,1,0,1,0,0])
-simulation([1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0])
+simulation([1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1])
 # simulation([0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1])
 # simulation([0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1])
