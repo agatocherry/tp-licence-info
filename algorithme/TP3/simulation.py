@@ -2,7 +2,7 @@ from os import system
 from time import sleep
 
 def uneEtape(tab):
-    print("len :", len(tab))
+    # print("len :", len(tab))
     if len(tab) < 2:
         return []
     newTab = []
